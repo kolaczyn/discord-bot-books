@@ -2,7 +2,7 @@
 
 Edit src/config/booksToCheck.ts
 
-Add entries in /config.json (if you run errors will tell you what's missing)
+Add .env file based on .env.example. If you run the app, the errors will tell you what's missing.
 
 ```sh
 bun run index.ts

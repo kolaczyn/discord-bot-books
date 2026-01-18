@@ -1,7 +1,7 @@
 import { EmbedBuilder, WebhookClient } from 'discord.js';
-import { APP_WEBHOOK_ID, APP_WEBHOOK_TOKEN } from '../../config.json';
 import type { BookWithAvailability } from '../types';
 import { makeMessage } from './makeMessage';
+import { APP_WEBHOOK_ID, APP_WEBHOOK_TOKEN } from '../env';
 
 export const sendWebhookMessage = async (booksWithAvailability: BookWithAvailability[]) => {
     console.log('Sending Webhook message...')

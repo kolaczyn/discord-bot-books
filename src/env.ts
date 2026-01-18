@@ -1,0 +1,2 @@
+export const APP_WEBHOOK_ID = Bun.env.APP_WEBHOOK_ID
+export const APP_WEBHOOK_TOKEN = Bun.env.APP_WEBHOOK_TOKEN
