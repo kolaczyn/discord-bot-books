@@ -1,15 +1,9 @@
 # discord-bot-books
 
-To install dependencies:
+Edit src/config/booksToCheck.ts
 
-```bash
-bun install
-```
+Add entries in /config.json (if you run errors will tell you what's missing)
 
-To run:
-
-```bash
+```sh
 bun run index.ts
 ```
-
-This project was created using `bun init` in bun v1.3.6. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
